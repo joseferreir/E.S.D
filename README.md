@@ -7,7 +7,7 @@
 ## Passo 2: var até a pasta oude estão os arquivos:
 cd /caminho dos arquivos
 
-## Passo 3: compilar cos arquivos de implentação do TAD
+## Passo 3: compilar os arquivos de implentação do TAD
 
 gcc -c NomeDoArquivo.c -o NomeDoArquivo.o
 
