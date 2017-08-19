@@ -4,7 +4,7 @@
 ## Passo 1: Faça o clone do projeto
  git clone https://github.com/joseferreir/E.S.D.git
 
-## Passo 2: var até a pasta oude estão os arquivos:
+## Passo 2: var até a pasta onde estão os arquivos:
 cd /caminho dos arquivos
 
 ## Passo 3: compilar os arquivos de implentação do TAD
