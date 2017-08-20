@@ -1,12 +1,7 @@
 #include"Lista.h"
-int main(void)
-{
-	node *LISTA = (node *) malloc(sizeof(node));
-	if(!LISTA){
-		printf("Sem memoria disponivel!\n");
-		exit(1);
-	}
-	inicia(LISTA);
+int main(void){
+
+	node * LISTA = aloca();
 	int opt;
 	
 	do{
@@ -18,11 +13,7 @@ int main(void)
 	return 0;
 }
 
-void inicia(node *LISTA)
-{
-	LISTA->prox = NULL;
-	LISTA->tamanho = 0;
-}
+
 
 int menu(void)
 {

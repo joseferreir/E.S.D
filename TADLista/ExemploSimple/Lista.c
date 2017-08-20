@@ -1,4 +1,9 @@
 #include"Lista.h"
+struct Node{
+	int num;
+	int tamanho;
+	struct Node *prox;
+}; 
 
 int vazia(node *LISTA)
 {
