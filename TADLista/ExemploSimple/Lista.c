@@ -71,7 +71,7 @@ printf("------------------------------\n\n");
 		printf("%5d", tmp->num);
 		tmp = tmp->prox;
 	}
-	printf("------------------------------\n\n");
+	printf("\n------------------------------\n\n");
 }
 
  void exibeTamanho(node *LISTA){

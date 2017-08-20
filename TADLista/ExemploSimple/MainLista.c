@@ -8,7 +8,7 @@ int menu(void){
 	printf("2. Adicionar node no inicio\n");
 	printf("3. Zerar lista\n");
         printf("4. Exibir tamanho da lista\n");
-	printf("Opcao: "); scanf("%d", &opt);
+	printf("-> "); scanf("%d", &opt);
 	
 	return opt;
 }
