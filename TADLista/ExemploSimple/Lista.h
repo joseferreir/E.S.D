@@ -1,3 +1,6 @@
+#ifndef LISTA_H
+#define LISTA_H
+
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -10,3 +13,4 @@ void exibeTamanho(node *LISTA);
 void libera(node *LISTA);
 node *aloca();
 node *criarLista();
+#endif
