@@ -13,34 +13,8 @@ int vazia(node *LISTA)
 		return 0;
 }
 
-
-/*void insereFim(node *LISTA,node *novvo)
-{
+void insereInicio(node *LISTA){ 
 	node *novo = aloca();
-	
-	printf("Novo elemento: "); scanf("%d", &novo->num);
-	novo->prox = NULL;
-	
-	if(vazia(LISTA))
-		LISTA->prox=novo;
-		
-	else{
-		
-		
-		while(tmp->prox != NULL)
-			tmp = tmp->prox;
-		
-		tmp->prox = novo;
-		
-	}
-	LISTA->tamanho++;
-}
-*/
-void insereInicio(node *LISTA)
-{
-	node *novo = aloca();
-	
-	
 	
 	node *oldHead = LISTA->prox;
 	
