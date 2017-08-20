@@ -109,5 +109,16 @@ node *novo=(node *) malloc(sizeof(node));
 
    return novo;
 }
+node *criarLista(){
+node *novo=(node *) malloc(sizeof(node));
+	if(!novo){
+		printf("Sem memoria disponivel!\n");
+		exit(1);
+	}
+    // printf("Novo elemento: "); scanf("%d", &novo->num);
+
+   return novo;
+}
+
 
 

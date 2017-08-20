@@ -44,7 +44,7 @@ void opcao(node *LISTA, int op){
 
 int main(void){
 
-	node * LISTA = aloca();
+	node * LISTA = criarLista();
 	int opt;
 	
 	do{
