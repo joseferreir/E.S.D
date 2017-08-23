@@ -1,0 +1,17 @@
+# depslib dependency file v1.0
+1503495464 source:/home/jose2/Vídeos/exercicio/Lista.c
+	"Lista.h"
+
+1503414105 /home/jose2/Vídeos/exercicio/Lista.h
+	<stdio.h>
+	<stdlib.h>
+
+1503496204 source:/home/jose2/Vídeos/exercicio/main.c
+	"Lista.h"
+
+1503494581 source:/home/jose2/Vídeos/exercicio/Pilha.c
+	"Lista.h"
+	"Pilha.h"
+
+1503494889 /home/jose2/Vídeos/exercicio/Pilha.h
+
