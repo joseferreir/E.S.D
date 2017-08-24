@@ -17,7 +17,7 @@ void insere(Fila* f, int v){
     if (f->ini==NULL) /* fila antes vazia? */
     f->ini = f->fim;
 }
-float retira (Fila* f){
+int retira (Fila* f){
 int v;
     if (vazia(f)) {
         printf("Fila vazia.\n");

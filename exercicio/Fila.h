@@ -7,7 +7,7 @@ Fila* cria(void);
 
 void insereFila(Fila* f, int v);
 
-float retiraFila (Fila* f);
+int retiraFila (Fila* f);
 
 int vazia (Fila* f);
 
